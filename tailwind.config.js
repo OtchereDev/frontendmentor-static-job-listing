@@ -1,5 +1,11 @@
 module.exports = {
-  purge: [],
+  purge: {
+    enabled:true,
+    content:[
+      './public/index.html',
+      './public/index.js'
+    ]
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
